@@ -42,9 +42,9 @@ def average(a: list) -> list:
         return (mid * average(a[:mid]) + (n - mid) * average(a[mid:])) / n
 
 
-def check_ordered_median(a: list, n: int) -> float:
+def get_median_custom(a: list, n: int) -> float:
     """
-    Calculate median value of a ordered numbers list.
+    Calculate median value of a ordered numbers list with custom list len().
 
     :param a: numbers list
     :param n: length of list
@@ -65,4 +65,4 @@ def get_median(a: list) -> float:
     n = count(a)
     s = quicksort(a)
 
-    return check_ordered_median(s, n)
+    return get_median_custom(s, n)
