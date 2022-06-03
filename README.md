@@ -1,5 +1,9 @@
-### AveMedia
+# avemedi_lib
 
-## Get average of numbers list
+### Install lib
 
-## Find median
+`pip install avemedi_lib`
+
+### Get average of numbers list, example:
+
+### Find median, example:
