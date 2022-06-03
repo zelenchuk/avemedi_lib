@@ -1,4 +1,3 @@
-===============
 This library help in getting a "average value of numbers list" 
 and "get median (for ordered, unordered list of numbers and even or odd list values)". 
 
@@ -11,16 +10,12 @@ Github rep - `https://github.com/zelenchuk/avemedi_lib`
 Installing
 ============
 
-.. code-block:: bash
-
     pip install avemedi_lib
 
 Usage
 =====
 
-.. code-block:: bash
-
-   from avemedi_lib.functions import average, get_median, get_median_custom
+    from avemedi_lib.functions import average, get_median, get_median_custom
 
     test_even_array = [12, 32, 23, 43, 14, 44, 123, 15]
     test_odd_array = [1, 2, 3, 4, 5, 6, 7, 8, 9]
