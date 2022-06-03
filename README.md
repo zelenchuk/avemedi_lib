@@ -4,6 +4,8 @@ This library help in getting a "average value of numbers list" and "get median (
 
 Enjoy.
 
+https://pypi.org/project/avemedi-lib/
+
 ### Install lib
 
 `pip install avemedi_lib`
