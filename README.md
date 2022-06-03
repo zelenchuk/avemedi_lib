@@ -12,7 +12,7 @@ Enjoy.
 
 ### Find median, example:
 
-`from avemedi_lib.functions import average, get_median, check_ordered_median
+`from avemedi_lib.functions import average, get_median, get_median_custom
 
 test_even_array = [12, 32, 23, 43, 14, 44, 123, 15]
 test_odd_array = [1, 2, 3, 4, 5, 6, 7, 8, 9]
@@ -31,5 +31,5 @@ print(get_median(test_odd_array)) # 27.5
 a = sorted(test_even_array)
 n = len(a)
 
-print(check_ordered_median(a, n)) # 27.5
+print(get_median_custom(a, n)) # 27.5
 `

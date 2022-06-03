@@ -8,7 +8,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setup(
     name='avemedi_lib',
     packages=find_packages(include=['avemedi_lib']),
-    version='0.1.2',
+    version='0.1.3',
     long_description=long_description,
     long_description_content_type="text/markdown",
     description='This library help in getting a "average value of numbers list" and "get median (for ordered, unordered list of numbers and even or odd list values)". Enjoy.',
